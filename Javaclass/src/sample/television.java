@@ -5,10 +5,25 @@ public class television {
 	int volume;  // TV의 음량
 	boolean onOff; // TV ON/OFF
 	int light; // TV의 밝기
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	
+	void pr() {
+		System.out.println(channel+""+volume+""+onOff);}
+	void volumeUP(int data){
+		if(onOff==false){
+			System.out.println("TV Die");
+			return;
+			}
+		volume+=data;}
+		
+	void volumeUP(){
+		if(onOff == false) {
+			System.out.println("TV Die");
+			return;
+		
 	}
+		volume+=1;
+		}
+		
+	}
+	
 
-}
