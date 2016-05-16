@@ -35,6 +35,7 @@ public class midtermclass1 {
 				System.out.println("value is" + value);
 				break;
 				
+				
 		}
 	return;
 	}
